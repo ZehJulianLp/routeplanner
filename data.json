@@ -1,0 +1,387 @@
+{
+    "stations": [
+      {
+        "name": "Nordwald",
+        "connections": [
+          {
+            "stationName": "Sportzentrum",
+            "line": "Linie 3",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Sumpf-Nord",
+            "line": "Ringbahn",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Flughafen-Parkplatz",
+            "line": "Ringbahn",
+            "travelTime": 1
+          }
+        ]
+      },
+      {
+        "name": "Sumpf-Nord",
+        "connections": [
+          {
+            "stationName": "Nordwald",
+            "line": "Ringbahn",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Nordhafen",
+            "line": "Ringbahn",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Sumpf-Mitte",
+            "line": "Verbindung",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Main-Centre",
+            "line": "Hyperloop",
+            "travelTime": 2
+          }
+        ]
+      },
+      {
+        "name": "Nordhafen",
+        "connections": [
+          {
+            "stationName": "Sumpf-Nord",
+            "line": "Ringbahn",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Space-Centre",
+            "line": "Ringbahn",
+            "travelTime": 2
+          }
+        ]
+      },
+      {
+        "name": "Space-Centre",
+        "connections": [
+          {
+            "stationName": "Nordhafen",
+            "line": "Ringbahn",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Flughafen-Parkplatz",
+            "line": "Ringbahn",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Main-Centre",
+            "line": "TMC-Line",
+            "travelTime": 1
+          }
+        ]
+      },
+      {
+        "name": "Flughafen-Parkplatz",
+        "connections": [
+          {
+            "stationName": "Space-Centre",
+            "line": "Ringbahn",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Nordwald",
+            "line": "Ringbahn",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Flughafen",
+            "line": "Airport-Express",
+            "travelTime": 1
+          }
+        ]
+      },
+      {
+        "name": "Flughafen",
+        "connections": [
+          {
+            "stationName": "Sportzentrum",
+            "line": "Airport-Express",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Flughafen-Parkplatz",
+            "line": "Airport-Express",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Savanne",
+            "line": "Linie 2",
+            "travelTime": 1
+          }
+        ]
+      },
+      {
+        "name": "Sportzentrum",
+        "connections": [
+          {
+            "stationName": "Flughafen",
+            "line": "Airport-Express",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Nordwald",
+            "line": "Linie 3",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Trici-Villa",
+            "line": "Linie 3",
+            "travelTime": 1
+          }
+        ]
+      },
+      {
+        "name": "Trici-Villa",
+        "connections": [
+          {
+            "stationName": "Sumpf-West",
+            "line": "Linie 3",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Sportzentrum",
+            "line": "Linie 3",
+            "travelTime": 1
+          }
+        ]
+      },
+      {
+        "name": "Sumpf-West",
+        "connections": [
+          {
+            "stationName": "Trici-Villa",
+            "line": "Linie 3",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Wohngebiet",
+            "line": "Linie 1",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Sumpf-Mitte",
+            "line": "Swamp-Line",
+            "travelTime": 1
+          }
+        ]
+      },
+      {
+        "name": "Sumpf-Mitte",
+        "connections": [
+          {
+            "stationName": "Sumpf-West",
+            "line": "Swamp-Line",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Sumpf-Ost",
+            "line": "Swamp-Line",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Sumpf-Nord",
+            "line": "Verbindung",
+            "travelTime": 1
+          }
+        ]
+      },
+      {
+        "name": "Sumpf-Ost",
+        "connections": [
+          {
+            "stationName": "Sumpf-Mitte",
+            "line": "Swamp-Line",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Tauchstation",
+            "line": "Linie 2",
+            "travelTime": 1
+          }
+        ]
+      },
+      {
+        "name": "Tauchstation",
+        "connections": [
+          {
+            "stationName": "Sumpf-Ost",
+            "line": "Linie 2",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Wald-Packstation",
+            "line": "Linie 2",
+            "travelTime": 1
+          }
+        ]
+      },
+      {
+        "name": "Wald-Packstation",
+        "connections": [
+          {
+            "stationName": "Tauchstation",
+            "line": "Linie 2",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Hauptbahnhof-Postzentrum",
+            "line": "Linie 2",
+            "travelTime": 1
+          }
+        ]
+      },
+      {
+        "name": "Hauptbahnhof-Postzentrum",
+        "connections": [
+          {
+            "stationName": "Wald-Packstation",
+            "line": "Linie 2",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Savanne",
+            "line": "Linie 2",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Wohngebiet",
+            "line": "Linie 1",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Wueste-Packstation",
+            "line": "Linie 1",
+            "travelTime": 1
+          }
+        ]
+      },
+      {
+        "name": "Wohngebiet",
+        "connections": [
+          {
+            "stationName": "Hauptbahnhof-Postzentrum",
+            "line": "Linie 1",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Sumpf-West",
+            "line": "Linie 1",
+            "travelTime": 1
+          }
+        ]
+      },
+      {
+        "name": "Savanne",
+        "connections": [
+          {
+            "stationName": "Hauptbahnhof-Postzentrum",
+            "line": "Linie 2",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Flughafen",
+            "line": "Linie 2",
+            "travelTime": 1
+          }
+        ]
+      },
+      {
+        "name": "Wueste-Packstation",
+        "connections": [
+          {
+            "stationName": "Hauptbahnhof-Postzentrum",
+            "line": "Linie 1",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Main-Centre",
+            "line": "TMC-Line",
+            "travelTime": 1
+          }
+        ]
+      },
+      {
+        "name": "Main-Centre",
+        "connections": [
+          {
+            "stationName": "Wueste-Packstation",
+            "line": "TMC-Line",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Space-Centre",
+            "line": "TMC-Line",
+            "travelTime": 1
+          },
+          {
+            "stationName": "Sumpf-Nord",
+            "line": "Hyperloop",
+            "travelTime": 2
+          },
+          {
+            "stationName": "Woodland-Mansion",
+            "line": "Hyperloop",
+            "travelTime": 2
+          }
+        ]
+      },
+      {
+        "name": "Woodland-Mansion",
+        "connections": [
+            {
+                "stationName": "Main-Centre",
+                "line": "Hyperloop",
+                "travelTime": 2
+            }
+        ]
+      }
+    ],
+    "lines": [
+      {
+        "name": "Linie 1",
+        "color": "blue"
+      },
+      {
+        "name": "Linie 2",
+        "color": "red"
+      },
+      {
+        "name": "Linie 3",
+        "color": "brown"
+      },
+      {
+        "name": "TMC-Line",
+        "color": "green"
+      },
+      {
+        "name": "Swamp-Line",
+        "color": "yellow"
+      },
+      {
+        "name": "Airport-Express",
+        "color": "orange"
+      },
+      {
+        "name": "Ringbahn",
+        "color": "purple"
+      },
+      {
+        "name": "Verbindung",
+        "color": "black"
+      },
+      {
+        "name": "Hyperloop",
+        "color": "gray"
+      }
+    ]
+  }
